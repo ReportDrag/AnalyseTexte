@@ -1,13 +1,11 @@
-let longueur = "";
-let Nbmot = 0;
-let Nbe = 0;
-let RepetLettre = 0;
+let txt =" ";
+letNbmot = 0;
 
-const analyser = () =>{
-    console.log('Analyser');
+function analyser(){
 
-    let div = document.createElement('div');
-    div.innerHTML="Salut";
-    document.getElementById('div').appendChild(div);
+    txt = document.querySelector(".txt").value;
 
+    let resultat = document.createElement('div');
+    resultat.innerHTML = "Longueur du texte : " + texte.length + " caractère(s)";
+    
 }
